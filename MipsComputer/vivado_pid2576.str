@@ -700,3 +700,196 @@ selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL An
 // Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
 // PAPropertyPanels.initPanels (U0 (MIPSprocesador)) elapsed time: 0.2s
 selectButton(PAResourceQtoS.SchematicView_PREVIOUS, "Schematic_previousview"); // B
+// Elapsed time: 342 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // f - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectCodeEditor("MIPScomputer.vhd", 72, 570); // ad
+selectCodeEditor("MIPScomputer.vhd", 63, 581); // ad
+// Elapsed time: 177 seconds
+typeControlKey((HResource) null, "MIPScomputer.vhd", 'c'); // ad
+// Elapsed time: 22 seconds
+selectCodeEditor("MIPScomputer.vhd", 104, 504); // ad
+selectCodeEditor("MIPScomputer.vhd", 51, 567); // ad
+// Elapsed time: 69 seconds
+selectCodeEditor("MIPScomputer.vhd", 306, 600); // ad
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MIPSprocesador.vhd", 1); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MIPScomputer.vhd", 2); // o
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MIPSprocesador.vhd", 1); // o
+// Elapsed Time for: 'L.f': 29m:52s
+// Elapsed Time for: 'L.f': 29m:54s
+selectCodeEditor("MIPSprocesador.vhd", 95, 168); // ad
+typeControlKey((HResource) null, "MIPSprocesador.vhd", 'c'); // ad
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MIPScomputer.vhd", 2); // o
+selectCodeEditor("MIPScomputer.vhd", 122, 175); // ad
+typeControlKey((HResource) null, "MIPScomputer.vhd", 'v'); // ad
+selectCodeEditor("MIPScomputer.vhd", 208, 406); // ad
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 30m:12s
+// Elapsed Time for: 'L.f': 30m:14s
+// Elapsed time: 24 seconds
+selectCodeEditor("MIPScomputer.vhd", 111, 568); // ad
+typeControlKey((HResource) null, "MIPScomputer.vhd", 'c'); // ad
+selectCodeEditor("MIPScomputer.vhd", 184, 386); // ad
+typeControlKey((HResource) null, "MIPScomputer.vhd", 'v'); // ad
+selectCodeEditor("MIPScomputer.vhd", 111, 587); // ad
+typeControlKey((HResource) null, "MIPScomputer.vhd", 'c'); // ad
+selectCodeEditor("MIPScomputer.vhd", 407, 363); // ad
+typeControlKey((HResource) null, "MIPScomputer.vhd", 'v'); // ad
+selectCodeEditor("MIPScomputer.vhd", 405, 480); // ad
+selectCodeEditor("MIPScomputer.vhd", 147, 433); // ad
+selectCodeEditor("MIPScomputer.vhd", 121, 74); // ad
+selectCodeEditor("MIPScomputer.vhd", 120, 74, false, false, false, false, true); // ad - Double Click
+typeControlKey((HResource) null, "MIPScomputer.vhd", 'c'); // ad
+selectCodeEditor("MIPScomputer.vhd", 111, 426); // ad
+selectCodeEditor("MIPScomputer.vhd", 111, 426, false, false, false, false, true); // ad - Double Click
+typeControlKey((HResource) null, "MIPScomputer.vhd", 'v'); // ad
+selectCodeEditor("MIPScomputer.vhd", 257, 469); // ad
+// Elapsed time: 18 seconds
+selectCodeEditor("MIPScomputer.vhd", 112, 433); // ad
+// Elapsed time: 37 seconds
+selectCodeEditor("MIPScomputer.vhd", 417, 59); // ad
+selectCodeEditor("MIPScomputer.vhd", 430, 211); // ad
+// Elapsed time: 51 seconds
+selectCodeEditor("MIPScomputer.vhd", 314, 567); // ad
+selectCodeEditor("MIPScomputer.vhd", 384, 471); // ad
+selectCodeEditor("MIPScomputer.vhd", 426, 573); // ad
+selectCodeEditor("MIPScomputer.vhd", 377, 609); // ad
+selectCodeEditor("MIPScomputer.vhd", 46, 521); // ad
+selectCodeEditor("MIPScomputer.vhd", 229, 514); // ad
+selectCodeEditor("MIPScomputer.vhd", 145, 495); // ad
+selectCodeEditor("MIPScomputer.vhd", 280, 508); // ad
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 33m:39s
+// Elapsed Time for: 'L.f': 33m:41s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 16, false); // f
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // g
+// TclEventType: ELABORATE_START
+// Tcl Message: refresh_design 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 2861.824 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 2,360 MB. GUI used memory: 90 MB. Current time: 11/1/25, 8:52:48 AM COT
+// Engine heap size: 2,360 MB. GUI used memory: 89 MB. Current time: 11/1/25, 8:52:48 AM COT
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2861.824 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2861.824 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2861.824 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 2861.824 ; gain = 0.000 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 2,360 MB. GUI used memory: 89 MB. Current time: 11/1/25, 8:52:49 AM COT
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// WARNING: HEventQueue.dispatchEvent() is taking  1218 ms.
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc] 
+// Tcl Message: Finished Parsing XDC File [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc] Completed Processing XDC Constraints  
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 2861.824 ; gain = 0.000 
+// Elapsed time: 10 seconds
+dismissDialog("Reloading"); // bq
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Critical Messages"); // F
+// Elapsed time: 73 seconds
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // j
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MIPScomputer.vhd", 2); // o
+selectCodeEditor("MIPScomputer.vhd", 104, 334); // ad
+selectCodeEditor("MIPScomputer.vhd", 173, 316); // ad
+selectCodeEditor("MIPScomputer.vhd", 142, 298); // ad
+// Elapsed time: 65 seconds
+selectCodeEditor("MIPScomputer.vhd", 52, 312); // ad
+selectCodeEditor("MIPScomputer.vhd", 52, 312, false, false, false, false, true); // ad - Double Click
+typeControlKey((HResource) null, "MIPScomputer.vhd", 'c'); // ad
+selectCodeEditor("MIPScomputer.vhd", 272, 198); // ad
+typeControlKey((HResource) null, "MIPScomputer.vhd", 'v'); // ad
+selectCodeEditor("MIPScomputer.vhd", 346, 347); // ad
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 36m:45s
+// Elapsed Time for: 'L.f': 36m:47s
+// Elapsed time: 17 seconds
+selectCodeEditor("MIPScomputer.vhd", 149, 279); // ad
+// Elapsed time: 11 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 16 seconds
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // g
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+// Elapsed Time for: 'L.f': 37m:33s
+selectButton("OptionPane.button", "OK"); // JButton
+// Elapsed Time for: 'L.f': 37m:35s
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // g
+// TclEventType: ELABORATE_START
+// Tcl Message: refresh_design 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2861.824 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 2,361 MB. GUI used memory: 91 MB. Current time: 11/1/25, 8:56:43 AM COT
+// Engine heap size: 2,361 MB. GUI used memory: 91 MB. Current time: 11/1/25, 8:56:43 AM COT
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2861.824 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2861.824 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2861.824 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 2861.824 ; gain = 0.000 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 2,361 MB. GUI used memory: 91 MB. Current time: 11/1/25, 8:56:44 AM COT
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// WARNING: HEventQueue.dispatchEvent() is taking  1048 ms.
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc] 
+// Tcl Message: Finished Parsing XDC File [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc] Completed Processing XDC Constraints  
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 2861.824 ; gain = 0.000 
+// Elapsed time: 10 seconds
+dismissDialog("Reloading"); // bq
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Critical Messages"); // F
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 3); // o

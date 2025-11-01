@@ -35,7 +35,7 @@ end MIPSmemory;
 
 architecture Behavioral of MIPSmemory is
  type memory_type is array (0 to 2047) of std_logic_vector (31 downto 0);
- signal myMemory: memory_type;
+ signal myMemory: memory_type :=(x"00000000",x"00000001",others =>(others =>x"00000000");
 begin
     process (clock)
     begin

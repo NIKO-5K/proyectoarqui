@@ -958,3 +958,295 @@ Finished Parsing XDC File [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsC
 Completed Processing XDC Constraints
 
 refresh_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 2861.824 ; gain = 0.000
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 2861.824 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'MIPScomputer' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPScomputer.vhd:41]
+INFO: [Synth 8-3491] module 'MIPSprocesador' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:27' bound to instance 'U0' of component 'MIPSprocesador' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPScomputer.vhd:77]
+INFO: [Synth 8-638] synthesizing module 'MIPSprocesador' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:38]
+INFO: [Synth 8-3491] module 'register32b' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/register32b.vhd:27' bound to instance 'PC' of component 'register32b' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:109]
+INFO: [Synth 8-638] synthesizing module 'register32b' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/register32b.vhd:36]
+WARNING: [Synth 8-614] signal 'enable' is read in the process but is not in the sensitivity list [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/register32b.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'register32b' (0#1) [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/register32b.vhd:36]
+INFO: [Synth 8-3491] module 'mux2a1_32b' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/mux2a1_32b.vhd:34' bound to instance 'addrOut' of component 'mux2a1_32b' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:118]
+INFO: [Synth 8-638] synthesizing module 'mux2a1_32b' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/mux2a1_32b.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'mux2a1_32b' (0#1) [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/mux2a1_32b.vhd:41]
+INFO: [Synth 8-3491] module 'register32b' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/register32b.vhd:27' bound to instance 'IR' of component 'register32b' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:126]
+INFO: [Synth 8-3491] module 'register32b' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/register32b.vhd:27' bound to instance 'MDR' of component 'register32b' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:135]
+INFO: [Synth 8-3491] module 'mux4a1_5bits' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/mux4a1_5bits.vhd:34' bound to instance 'rfAddr' of component 'mux4a1_5bits' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:144]
+INFO: [Synth 8-638] synthesizing module 'mux4a1_5bits' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/mux4a1_5bits.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'mux4a1_5bits' (0#1) [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/mux4a1_5bits.vhd:43]
+INFO: [Synth 8-3491] module 'mux2a1_32b' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/mux2a1_32b.vhd:34' bound to instance 'MDRmux' of component 'mux2a1_32b' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:154]
+INFO: [Synth 8-3491] module 'register_file' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/register_file.vhd:35' bound to instance 'RF' of component 'register_file' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:162]
+INFO: [Synth 8-638] synthesizing module 'register_file' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/register_file.vhd:46]
+WARNING: [Synth 8-614] signal 'write' is read in the process but is not in the sensitivity list [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/register_file.vhd:52]
+INFO: [Synth 8-256] done synthesizing module 'register_file' (0#1) [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/register_file.vhd:46]
+INFO: [Synth 8-3491] module 'register32b' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/register32b.vhd:27' bound to instance 'regA' of component 'register32b' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:183]
+INFO: [Synth 8-3491] module 'register32b' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/register32b.vhd:27' bound to instance 'regB' of component 'register32b' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:192]
+INFO: [Synth 8-3491] module 'mux2a1_32b' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/mux2a1_32b.vhd:34' bound to instance 'inAmux' of component 'mux2a1_32b' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:201]
+INFO: [Synth 8-3491] module 'mux4a1_32bits' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/mux4a1_32bits.vhd:34' bound to instance 'inBmux' of component 'mux4a1_32bits' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:209]
+INFO: [Synth 8-638] synthesizing module 'mux4a1_32bits' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/mux4a1_32bits.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'mux4a1_32bits' (0#1) [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/mux4a1_32bits.vhd:43]
+INFO: [Synth 8-3491] module 'alu_32b' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/alu_32b.vhd:35' bound to instance 'ALU' of component 'alu_32b' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:218]
+INFO: [Synth 8-638] synthesizing module 'alu_32b' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/alu_32b.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'alu_32b' (0#1) [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/alu_32b.vhd:44]
+INFO: [Synth 8-3491] module 'ALU_ctrl' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/ALU_ctrl.vhd:26' bound to instance 'controlALU' of component 'ALU_ctrl' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:226]
+INFO: [Synth 8-638] synthesizing module 'ALU_ctrl' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/ALU_ctrl.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'ALU_ctrl' (0#1) [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/ALU_ctrl.vhd:32]
+INFO: [Synth 8-3491] module 'register32b' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/register32b.vhd:27' bound to instance 'aluOutReg' of component 'register32b' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:232]
+INFO: [Synth 8-3491] module 'mux4a1_32bits' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/mux4a1_32bits.vhd:34' bound to instance 'PCmux' of component 'mux4a1_32bits' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:242]
+INFO: [Synth 8-256] done synthesizing module 'MIPSprocesador' (0#1) [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:38]
+INFO: [Synth 8-3491] module 'MIPSmemory' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSmemory.vhd:27' bound to instance 'U1' of component 'MIPSmemory' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPScomputer.vhd:88]
+INFO: [Synth 8-638] synthesizing module 'MIPSmemory' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSmemory.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'MIPSmemory' (0#1) [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSmemory.vhd:36]
+INFO: [Synth 8-3491] module 'mux2a1_32b' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/mux2a1_32b.vhd:34' bound to instance 'inMux' of component 'mux2a1_32b' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPScomputer.vhd:98]
+INFO: [Synth 8-3491] module 'register32b' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/register32b.vhd:27' bound to instance 'outReg' of component 'register32b' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPScomputer.vhd:105]
+INFO: [Synth 8-256] done synthesizing module 'MIPScomputer' (0#1) [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPScomputer.vhd:41]
+WARNING: [Synth 8-3848] Net dataOut in module/entity MIPSprocesador does not have driver. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:32]
+WARNING: [Synth 8-3848] Net read in module/entity MIPSprocesador does not have driver. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:33]
+WARNING: [Synth 8-3848] Net write in module/entity MIPSprocesador does not have driver. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:34]
+WARNING: [Synth 8-3848] Net iOrD in module/entity MIPSprocesador does not have driver. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:101]
+WARNING: [Synth 8-3848] Net enablePC in module/entity MIPSprocesador does not have driver. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:101]
+WARNING: [Synth 8-3848] Net pcSrc in module/entity MIPSprocesador does not have driver. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:102]
+WARNING: [Synth 8-3848] Net enableIR in module/entity MIPSprocesador does not have driver. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:101]
+WARNING: [Synth 8-3848] Net aluSrcA in module/entity MIPSprocesador does not have driver. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:101]
+WARNING: [Synth 8-3848] Net aluSrcB in module/entity MIPSprocesador does not have driver. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:102]
+WARNING: [Synth 8-3848] Net aluOp in module/entity MIPSprocesador does not have driver. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:105]
+WARNING: [Synth 8-3848] Net regWrite in module/entity MIPSprocesador does not have driver. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:101]
+WARNING: [Synth 8-3848] Net regDst in module/entity MIPSprocesador does not have driver. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:102]
+WARNING: [Synth 8-3848] Net memToReg in module/entity MIPSprocesador does not have driver. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:101]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2861.824 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2861.824 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2861.824 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 2861.824 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'opcode[0]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'opcode[1]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'opcode[2]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'opcode[3]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'opcode[4]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'opcode[5]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'controlSignals[0]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'controlSignals[1]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'controlSignals[2]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'controlSignals[3]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'controlSignals[4]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'controlSignals[5]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'controlSignals[6]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'controlSignals[7]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'controlSignals[8]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'controlSignals[9]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'controlSignals[10]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'controlSignals[11]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'controlSignals[12]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'controlSignals[13]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'controlSignals[14]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'controlSignals[15]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc]
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 2861.824 ; gain = 0.000
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2861.824 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'MIPScomputer' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPScomputer.vhd:41]
+INFO: [Synth 8-3491] module 'MIPSprocesador' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:27' bound to instance 'U0' of component 'MIPSprocesador' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPScomputer.vhd:77]
+INFO: [Synth 8-638] synthesizing module 'MIPSprocesador' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:38]
+INFO: [Synth 8-3491] module 'register32b' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/register32b.vhd:27' bound to instance 'PC' of component 'register32b' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:109]
+INFO: [Synth 8-638] synthesizing module 'register32b' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/register32b.vhd:36]
+WARNING: [Synth 8-614] signal 'enable' is read in the process but is not in the sensitivity list [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/register32b.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'register32b' (0#1) [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/register32b.vhd:36]
+INFO: [Synth 8-3491] module 'mux2a1_32b' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/mux2a1_32b.vhd:34' bound to instance 'addrOut' of component 'mux2a1_32b' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:118]
+INFO: [Synth 8-638] synthesizing module 'mux2a1_32b' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/mux2a1_32b.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'mux2a1_32b' (0#1) [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/mux2a1_32b.vhd:41]
+INFO: [Synth 8-3491] module 'register32b' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/register32b.vhd:27' bound to instance 'IR' of component 'register32b' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:126]
+INFO: [Synth 8-3491] module 'register32b' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/register32b.vhd:27' bound to instance 'MDR' of component 'register32b' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:135]
+INFO: [Synth 8-3491] module 'mux4a1_5bits' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/mux4a1_5bits.vhd:34' bound to instance 'rfAddr' of component 'mux4a1_5bits' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:144]
+INFO: [Synth 8-638] synthesizing module 'mux4a1_5bits' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/mux4a1_5bits.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'mux4a1_5bits' (0#1) [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/mux4a1_5bits.vhd:43]
+INFO: [Synth 8-3491] module 'mux2a1_32b' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/mux2a1_32b.vhd:34' bound to instance 'MDRmux' of component 'mux2a1_32b' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:154]
+INFO: [Synth 8-3491] module 'register_file' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/register_file.vhd:35' bound to instance 'RF' of component 'register_file' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:162]
+INFO: [Synth 8-638] synthesizing module 'register_file' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/register_file.vhd:46]
+WARNING: [Synth 8-614] signal 'write' is read in the process but is not in the sensitivity list [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/register_file.vhd:52]
+INFO: [Synth 8-256] done synthesizing module 'register_file' (0#1) [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/register_file.vhd:46]
+INFO: [Synth 8-3491] module 'register32b' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/register32b.vhd:27' bound to instance 'regA' of component 'register32b' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:183]
+INFO: [Synth 8-3491] module 'register32b' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/register32b.vhd:27' bound to instance 'regB' of component 'register32b' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:192]
+INFO: [Synth 8-3491] module 'mux2a1_32b' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/mux2a1_32b.vhd:34' bound to instance 'inAmux' of component 'mux2a1_32b' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:201]
+INFO: [Synth 8-3491] module 'mux4a1_32bits' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/mux4a1_32bits.vhd:34' bound to instance 'inBmux' of component 'mux4a1_32bits' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:209]
+INFO: [Synth 8-638] synthesizing module 'mux4a1_32bits' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/mux4a1_32bits.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'mux4a1_32bits' (0#1) [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/mux4a1_32bits.vhd:43]
+INFO: [Synth 8-3491] module 'alu_32b' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/alu_32b.vhd:35' bound to instance 'ALU' of component 'alu_32b' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:218]
+INFO: [Synth 8-638] synthesizing module 'alu_32b' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/alu_32b.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'alu_32b' (0#1) [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/alu_32b.vhd:44]
+INFO: [Synth 8-3491] module 'ALU_ctrl' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/ALU_ctrl.vhd:26' bound to instance 'controlALU' of component 'ALU_ctrl' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:226]
+INFO: [Synth 8-638] synthesizing module 'ALU_ctrl' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/ALU_ctrl.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'ALU_ctrl' (0#1) [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/ALU_ctrl.vhd:32]
+INFO: [Synth 8-3491] module 'register32b' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/register32b.vhd:27' bound to instance 'aluOutReg' of component 'register32b' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:232]
+INFO: [Synth 8-3491] module 'mux4a1_32bits' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/mux4a1_32bits.vhd:34' bound to instance 'PCmux' of component 'mux4a1_32bits' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:242]
+INFO: [Synth 8-256] done synthesizing module 'MIPSprocesador' (0#1) [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:38]
+INFO: [Synth 8-3491] module 'MIPSmemory' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSmemory.vhd:27' bound to instance 'U1' of component 'MIPSmemory' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPScomputer.vhd:88]
+INFO: [Synth 8-638] synthesizing module 'MIPSmemory' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSmemory.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'MIPSmemory' (0#1) [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSmemory.vhd:36]
+INFO: [Synth 8-3491] module 'mux2a1_32b' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/mux2a1_32b.vhd:34' bound to instance 'inMux' of component 'mux2a1_32b' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPScomputer.vhd:99]
+INFO: [Synth 8-3491] module 'register32b' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/register32b.vhd:27' bound to instance 'outReg' of component 'register32b' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPScomputer.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'MIPScomputer' (0#1) [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPScomputer.vhd:41]
+WARNING: [Synth 8-3848] Net dataOut in module/entity MIPSprocesador does not have driver. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:32]
+WARNING: [Synth 8-3848] Net read in module/entity MIPSprocesador does not have driver. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:33]
+WARNING: [Synth 8-3848] Net write in module/entity MIPSprocesador does not have driver. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:34]
+WARNING: [Synth 8-3848] Net iOrD in module/entity MIPSprocesador does not have driver. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:101]
+WARNING: [Synth 8-3848] Net enablePC in module/entity MIPSprocesador does not have driver. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:101]
+WARNING: [Synth 8-3848] Net pcSrc in module/entity MIPSprocesador does not have driver. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:102]
+WARNING: [Synth 8-3848] Net enableIR in module/entity MIPSprocesador does not have driver. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:101]
+WARNING: [Synth 8-3848] Net aluSrcA in module/entity MIPSprocesador does not have driver. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:101]
+WARNING: [Synth 8-3848] Net aluSrcB in module/entity MIPSprocesador does not have driver. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:102]
+WARNING: [Synth 8-3848] Net aluOp in module/entity MIPSprocesador does not have driver. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:105]
+WARNING: [Synth 8-3848] Net regWrite in module/entity MIPSprocesador does not have driver. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:101]
+WARNING: [Synth 8-3848] Net regDst in module/entity MIPSprocesador does not have driver. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:102]
+WARNING: [Synth 8-3848] Net memToReg in module/entity MIPSprocesador does not have driver. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:101]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2861.824 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2861.824 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2861.824 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 2861.824 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'opcode[0]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'opcode[1]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'opcode[2]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'opcode[3]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'opcode[4]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'opcode[5]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'controlSignals[0]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'controlSignals[1]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'controlSignals[2]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'controlSignals[3]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'controlSignals[4]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'controlSignals[5]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'controlSignals[6]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'controlSignals[7]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'controlSignals[8]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'controlSignals[9]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'controlSignals[10]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'controlSignals[11]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'controlSignals[12]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'controlSignals[13]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'controlSignals[14]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'controlSignals[15]'. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc]
+Completed Processing XDC Constraints
+
+refresh_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 2861.824 ; gain = 0.000
