@@ -893,3 +893,32 @@ dismissDialog("Reloading"); // bq
 selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
 dismissDialog("Critical Messages"); // F
 selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 3); // o
+// Elapsed time: 266 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // f - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MIPScomputer(Behavioral) (MIPScomputer.vhd), U1 : MIPSmemory(Behavioral) (MIPSmemory.vhd)]", 19, false); // E
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MIPScomputer(Behavioral) (MIPScomputer.vhd), U1 : MIPSmemory(Behavioral) (MIPSmemory.vhd)]", 19, false, false, false, false, false, true); // E - Double Click
+// Elapsed time: 44 seconds
+selectCodeEditor("MIPSmemory.vhd", 204, 401); // ad
+// Elapsed time: 136 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 16, false); // f
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MIPSmemory.vhd", 4); // o
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MIPScomputer.vhd", 2); // o
+// Elapsed time: 70 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MIPSmemory.vhd", 4); // o
+selectCodeEditor("MIPSmemory.vhd", 399, 395); // ad
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 47m:37s
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 47m:39s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 46 seconds
+selectCodeEditor("MIPSmemory.vhd", 530, 433); // ad
+// Elapsed Time for: 'L.f': 47m:41s
+// Elapsed Time for: 'L.f': 47m:43s

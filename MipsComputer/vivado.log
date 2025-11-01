@@ -1250,3 +1250,4 @@ Finished Parsing XDC File [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsC
 Completed Processing XDC Constraints
 
 refresh_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 2861.824 ; gain = 0.000
+update_compile_order -fileset sources_1

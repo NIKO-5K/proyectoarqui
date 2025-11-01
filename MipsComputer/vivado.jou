@@ -29,3 +29,4 @@ synth_design -top MIPScomputer -part xc7a35tcpg236-1 -lint
 refresh_design
 refresh_design
 refresh_design
+update_compile_order -fileset sources_1
