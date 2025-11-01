@@ -1,0 +1,702 @@
+/*
+
+AMD Vivado v2023.1 (64-bit) [Major: 2023, Minor: 1]
+SW Build: 3865809 on Sun May  7 15:05:29 MDT 2023
+IP Build: 3864474 on Sun May  7 20:36:21 MDT 2023
+IP Build: 3864474 on Sun May  7 20:36:21 MDT 2023
+
+Process ID (PID): 2576
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Sat Nov 01 08:18:41 COT 2025
+Time zone: 	Colombia Standard Time (America/Bogota)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1200
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+OS font scaling: 100%
+
+Java version: 	17.0.3 64-bit
+JavaFX version: 17.0.1
+Java home: 	C:/Xilinx/Vivado/2023.1/tps/win64/jre17.0.3_7
+Java executable: 	C:/Xilinx/Vivado/2023.1/tps/win64/jre17.0.3_7/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms512m, -Xmx4072m, -Xss10m]
+Java initial memory (-Xms): 	512 MB
+Java maximum memory (-Xmx):	 3 GB
+
+User name: 	njimenezs
+User home directory: C:/Users/njimenezs
+User working directory: C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer
+User country: 	CO
+User language: 	es
+User locale: 	es_CO
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2023.1
+RDI_DATADIR: C:/Xilinx/Vivado/2023.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2023.1/bin
+
+Vivado preferences file: C:/Users/njimenezs/AppData/Roaming/Xilinx/Vivado/2023.1/vivado.xml
+Vivado preferences directory: C:/Users/njimenezs/AppData/Roaming/Xilinx/Vivado/2023.1/
+Vivado layouts directory: C:/Users/njimenezs/AppData/Roaming/Xilinx/Vivado/2023.1/data/layouts
+PlanAhead jar file: 	C:/Xilinx/Vivado/2023.1/lib/classes/planAhead.jar
+Vivado log file: 	C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/vivado.log
+Vivado journal file: 	C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/vivado.jou
+Engine tmp dir: 	C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/.Xil/Vivado-2576-LENOVO8304
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+RDI_APPROOT: C:/Xilinx/Vivado/2023.1
+RDI_ARGS:  -gui_launcher_event rodinguilauncherevent1036 "C:\Users\njimenezs\Documents\arqui\MipsComputer\MipsComputer\MipsComputer.vhd.xpr"
+RDI_ARGS_FUNCTION: RDI_EXEC_DEFAULT
+RDI_BASEROOT: C:/Xilinx/Vivado
+RDI_BINDIR: C:/Xilinx/Vivado/2023.1/bin
+RDI_BINROOT: C:/Xilinx/Vivado/2023.1/bin
+RDI_BUILD: yes
+RDI_CHECK_PROG: True
+RDI_DATADIR: C:/Xilinx/Vivado/2023.1/data
+RDI_INSTALLROOT: C:/Xilinx
+RDI_INSTALLVER: 2023.1
+RDI_INSTALLVERSION: 2023.1
+RDI_ISE_PLATFORM: nt64
+RDI_JAVACEFROOT: C:/Xilinx/Vivado/2023.1/tps/win64/java-cef-95.0.4638.69
+RDI_JAVAFXROOT: C:/Xilinx/Vivado/2023.1/tps/win64/javafx-sdk-17.0.1
+RDI_JAVAROOT: C:/Xilinx/Vivado/2023.1/tps/win64/jre17.0.3_7
+RDI_JAVA_VERSION: 17.0.3_7
+RDI_LIBDIR: C:/Xilinx/Vivado/2023.1/lib/win64.o
+RDI_MINGW_LIB: C:/Xilinx/Vivado/2023.1\tps\mingw\6.2.0\win64.o\nt\bin;C:/Xilinx/Vivado/2023.1\tps\mingw\6.2.0\win64.o\nt\libexec\gcc\x86_64-w64-mingw32\6.2.0
+RDI_OPT_EXT: .o
+RDI_PLATFORM: win64
+RDI_PREPEND_PATH: C:/Xilinx/Vivado/2023.1/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2023.1/ids_lite/ISE/lib/nt64
+RDI_PROG: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/vivado.exe
+RDI_PROGNAME: vivado.exe
+RDI_PYTHON3: C:/Xilinx/Vivado/2023.1\tps\win64\python-3.8.3
+RDI_PYTHON3_VERSION: 3.8.3
+RDI_PYTHONHOME: C:/Xilinx/Vivado/2023.1\tps\win64\python-3.8.3
+RDI_PYTHONPATH: C:/Xilinx/Vivado/2023.1\tps\win64\python-3.8.3;C:/Xilinx/Vivado/2023.1\tps\win64\python-3.8.3\bin;C:/Xilinx/Vivado/2023.1\tps\win64\python-3.8.3\lib;C:/Xilinx/Vivado/2023.1\tps\win64\python-3.8.3\lib\site-packages
+RDI_PYTHON_LD_LIBPATH: C:/Xilinx/Vivado/2023.1\tps\win64\python-3.8.3\lib
+RDI_SESSION_INFO: C:\Users\njimenezs\Documents\arqui\MipsComputer\MipsComputer:LENOVO8304-sáb.01-11-2025_8-18-22.83
+RDI_SHARED_DATA: C:/Xilinx/SharedData/2023.1/data
+RDI_TPS_ROOT: C:/Xilinx/Vivado/2023.1/tps/win64
+RDI_USE_JDK17: True
+RDI_VERBOSE: False
+XILINX: C:/Xilinx/Vivado/2023.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2023.1/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2023.1
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2023.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2023.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2023.1
+_RDI_BINROOT: C:\Xilinx\Vivado\2023.1\bin
+_RDI_CWD: C:\Users\njimenezs\Documents\arqui\MipsComputer\MipsComputer
+
+
+GUI allocated memory:	512 MB
+GUI max memory:		4,072 MB
+Engine allocated memory: 777 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\Users\njimenezs\Documents\arqui\MipsComputer\MipsComputer\MipsComputer.vhd.xpr. Version: Vivado v2023.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 808 MB. GUI used memory: 70 MB. Current time: 11/1/25, 8:18:42 AM COT
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 109 MB (+112187kb) [00:00:24]
+// [Engine Memory]: 1,039 MB (+937499kb) [00:00:24]
+// [Engine Memory]: 1,092 MB (+1402kb) [00:00:26]
+// WARNING: HEventQueue.dispatchEvent() is taking  3537 ms.
+// Tcl Message: open_project C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/nmunozm/MipsComputer.vhd' since last save. INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.gen/sources_1'. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'. 
+// [GUI Memory]: 130 MB (+16214kb) [00:00:27]
+// Tcl Message: open_project: Time (s): cpu = 00:00:32 ; elapsed = 00:00:17 . Memory (MB): peak = 1484.578 ; gain = 386.445 
+// Project name: MipsComputer.vhd; location: C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bq
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 137 MB (+380kb) [00:00:33]
+// [GUI Memory]: 150 MB (+6527kb) [00:00:42]
+// Elapsed time: 41 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MIPScomputer(Behavioral) (MIPScomputer.vhd), U1 : MIPSmemory(Behavioral) (MIPSmemory.vhd)]", 4, false); // E
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Run Linter]", 12, false); // f
+// Tcl Message: synth_design -top MIPSprocesador -part xc7a35tcpg236-1 -lint  
+// Tcl Message: Command: synth_design -top MIPSprocesador -part xc7a35tcpg236-1 -lint Starting synth_design Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t' 
+// Tcl Message: INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t' 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,189 MB. GUI used memory: 75 MB. Current time: 11/1/25, 8:19:42 AM COT
+// TclEventType: ELABORATE_START
+// TclEventType: ELABORATE_FINISH
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW_FAILED
+// TclEventType: LINTER_RUN
+// Tcl Message: INFO: [Device 21-403] Loading part xc7a35tcpg236-1 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2228.570 ; gain = 395.598 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Clean up Linter database... 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'MIPSprocesador' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:38] INFO: [Synth 8-3491] module 'register32b' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/register32b.vhd:27' bound to instance 'PC' of component 'register32b' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:109] INFO: [Synth 8-638] synthesizing module 'register32b' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/register32b.vhd:36] 
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'MIPSprocesador' (8#1) [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:38] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2314.840 ; gain = 481.867 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 37-85] Total of 17 linter message(s) generated. INFO: [Synth 37-45] Linter Run Finished! 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 2314.840 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc] 
+// Tcl Message: Finished Parsing XDC File [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc] 
+// Tcl Message: Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2413.125 ; gain = 0.000 
+// Tcl Message: INFO: [Common 17-83] Releasing license: Synthesis 
+// Tcl Message: 38 Infos, 55 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 2413.125 ; gain = 928.547 
+// 'a' command handler elapsed time: 14 seconds
+// [Engine Memory]: 1,941 MB (+832669kb) [00:01:27]
+// Elapsed time: 14 seconds
+dismissDialog("Run Linter"); // bq
+// HMemoryUtils.trashcanNow. Engine heap size: 1,941 MB. GUI used memory: 75 MB. Current time: 11/1/25, 8:19:57 AM COT
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 13, true); // f - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Elaborate Design"); // u
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -rtl_skip_mlo -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -rtl_skip_mlo -name rtl_1 Starting synth_design Using part: xc7a35tcpg236-1 Top: MIPSprocesador 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 2,029 MB. GUI used memory: 75 MB. Current time: 11/1/25, 8:20:07 AM COT
+// [Engine Memory]: 2,044 MB (+6614kb) [00:01:39]
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// TclEventType: CURR_DESIGN_SET
+// WARNING: HEventQueue.dispatchEvent() is taking  1811 ms.
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 2413.125 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'MIPSprocesador' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:38] INFO: [Synth 8-3491] module 'register32b' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/register32b.vhd:27' bound to instance 'PC' of component 'register32b' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:109] INFO: [Synth 8-638] synthesizing module 'register32b' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/register32b.vhd:36] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 2413.125 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 2413.125 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 2413.125 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 2413.125 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc] 
+// Tcl Message: Finished Parsing XDC File [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc] Completed Processing XDC Constraints  
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2499.113 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 2512.551 ; gain = 99.426 
+// Tcl Message: 33 Infos, 37 Warnings, 22 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 2512.551 ; gain = 99.426 
+// [GUI Memory]: 165 MB (+7544kb) [00:01:42]
+// 'dA' command handler elapsed time: 13 seconds
+// Elapsed time: 12 seconds
+dismissDialog("Open Elaborated Design"); // bq
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Critical Messages"); // F
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // f - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MIPScomputer(Behavioral) (MIPScomputer.vhd), U0 : MIPSprocesador(Behavioral) (MIPSprocesador.vhd)]", 3); // E
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MIPScomputer(Behavioral) (MIPScomputer.vhd), U0 : MIPSprocesador(Behavioral) (MIPSprocesador.vhd), MDRmux : mux2a1_32b(Behavioral) (mux2a1_32b.vhd)]", 9, false); // E
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MIPScomputer(Behavioral) (MIPScomputer.vhd), U0 : MIPSprocesador(Behavioral) (MIPSprocesador.vhd)]", 3, true); // E - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MIPScomputer(Behavioral) (MIPScomputer.vhd), U0 : MIPSprocesador(Behavioral) (MIPSprocesador.vhd)]", 3, true, false, false, false, false, true); // E - Double Click - Node
+// [GUI Memory]: 177 MB (+3861kb) [00:02:14]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MIPScomputer(Behavioral) (MIPScomputer.vhd), U0 : MIPSprocesador(Behavioral) (MIPSprocesador.vhd)]", 3); // E
+// Elapsed time: 67 seconds
+selectCodeEditor("MIPSprocesador.vhd", 145, 416); // ad
+selectCodeEditor("MIPSprocesador.vhd", 135, 420); // ad
+selectCodeEditor("MIPSprocesador.vhd", 141, 420); // ad
+selectCodeEditor("MIPSprocesador.vhd", 141, 420, false, false, false, false, true); // ad - Double Click
+selectCodeEditor("MIPSprocesador.vhd", 132, 417, false, false, false, true, false); // ad - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ao
+selectCodeEditor("MIPSprocesador.vhd", 249, 402); // ad
+selectCodeEditor("MIPSprocesador.vhd", 70, 369); // ad
+selectCodeEditor("MIPSprocesador.vhd", 41, 384); // ad
+// Elapsed time: 13 seconds
+typeControlKey((HResource) null, "MIPSprocesador.vhd", 'v'); // ad
+// Elapsed time: 27 seconds
+selectCodeEditor("MIPSprocesador.vhd", 387, 132); // ad
+typeControlKey((HResource) null, "MIPSprocesador.vhd", 'c'); // ad
+selectCodeEditor("MIPSprocesador.vhd", 59, 434); // ad
+typeControlKey((HResource) null, "MIPSprocesador.vhd", 'v'); // ad
+selectCodeEditor("MIPSprocesador.vhd", 75, 452); // ad
+// Elapsed time: 20 seconds
+selectCodeEditor("MIPSprocesador.vhd", 370, 489); // ad
+selectCodeEditor("MIPSprocesador.vhd", 360, 483); // ad
+selectCodeEditor("MIPSprocesador.vhd", 241, 465); // ad
+selectCodeEditor("MIPSprocesador.vhd", 319, 451); // ad
+selectCodeEditor("MIPSprocesador.vhd", 320, 432); // ad
+typeControlKey((HResource) null, "MIPSprocesador.vhd", 'c'); // ad
+typeControlKey((HResource) null, "MIPSprocesador.vhd", 'v'); // ad
+typeControlKey((HResource) null, "MIPSprocesador.vhd", 'v'); // ad
+typeControlKey((HResource) null, "MIPSprocesador.vhd", 'v'); // ad
+// Elapsed time: 114 seconds
+typeControlKey((HResource) null, "MIPSprocesador.vhd", 'c'); // ad
+typeControlKey((HResource) null, "MIPSprocesador.vhd", 'v'); // ad
+// Elapsed time: 47 seconds
+selectCodeEditor("MIPSprocesador.vhd", 857, 315); // ad
+// Elapsed time: 57 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MIPScomputer(Behavioral) (MIPScomputer.vhd)]", 2, true); // E - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MIPScomputer(Behavioral) (MIPScomputer.vhd)]", 2, true, false, false, false, false, true); // E - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MIPScomputer(Behavioral) (MIPScomputer.vhd)]", 2); // E
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MIPScomputer(Behavioral) (MIPScomputer.vhd), U0 : MIPSprocesador(Behavioral) (MIPSprocesador.vhd)]", 3, true); // E - Node
+typeControlKey(null, null, 'z');
+selectCodeEditor("MIPScomputer.vhd", 313, 355); // ad
+// HMemoryUtils.trashcanNow. Engine heap size: 2,106 MB. GUI used memory: 104 MB. Current time: 11/1/25, 8:27:37 AM COT
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MIPScomputer(Behavioral) (MIPScomputer.vhd), U0 : MIPSprocesador(Behavioral) (MIPSprocesador.vhd), PC : register32b(Behavioral) (register32b.vhd)]", 4, false); // E
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MIPSprocesador.vhd", 1); // o
+selectCodeEditor("MIPSprocesador.vhd", 319, 383); // ad
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("MIPSprocesador.vhd", 81, 419); // ad
+selectCodeEditor("MIPSprocesador.vhd", 44, 425); // ad
+selectCodeEditor("MIPSprocesador.vhd", 54, 425); // ad
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MIPScomputer.vhd", 2); // o
+// Elapsed Time for: 'L.f': 09m:16s
+// Elapsed Time for: 'L.f': 09m:18s
+selectCodeEditor("MIPScomputer.vhd", 262, 472); // ad
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 10m:10s
+// Elapsed Time for: 'L.f': 10m:12s
+// Elapsed time: 81 seconds
+selectCodeEditor("MIPScomputer.vhd", 161, 382); // ad
+selectCodeEditor("MIPScomputer.vhd", 151, 383); // ad
+selectCodeEditor("MIPScomputer.vhd", 153, 381); // ad
+// Elapsed time: 13 seconds
+selectCodeEditor("MIPScomputer.vhd", 249, 404); // ad
+// Elapsed time: 14 seconds
+selectCodeEditor("MIPScomputer.vhd", 67, 585); // ad
+// Elapsed time: 52 seconds
+typeControlKey((HResource) null, "MIPScomputer.vhd", 'v'); // ad
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MIPScomputer(Behavioral) (MIPScomputer.vhd), U0 : MIPSprocesador(Behavioral) (MIPSprocesador.vhd), PC : register32b(Behavioral) (register32b.vhd)]", 4, false, false, false, false, true, false); // E - Popup Trigger
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MIPScomputer(Behavioral) (MIPScomputer.vhd), U0 : MIPSprocesador(Behavioral) (MIPSprocesador.vhd), PC : register32b(Behavioral) (register32b.vhd)]", 4, false); // E
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MIPScomputer(Behavioral) (MIPScomputer.vhd), U0 : MIPSprocesador(Behavioral) (MIPSprocesador.vhd)]", 3, true); // E - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MIPSprocesador.vhd", 1); // o
+selectCodeEditor("MIPSprocesador.vhd", 112, 111); // ad
+typeControlKey((HResource) null, "MIPSprocesador.vhd", 'c'); // ad
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MIPScomputer.vhd", 2); // o
+selectCodeEditor("MIPScomputer.vhd", 106, 215); // ad
+typeControlKey((HResource) null, "MIPScomputer.vhd", 'v'); // ad
+selectCodeEditor("MIPScomputer.vhd", 183, 480); // ad
+selectCodeEditor("MIPScomputer.vhd", 176, 508); // ad
+// Elapsed time: 15 seconds
+selectCodeEditor("MIPScomputer.vhd", 167, 556); // ad
+// Elapsed time: 53 seconds
+selectCodeEditor("MIPScomputer.vhd", 269, 453); // ad
+// Elapsed time: 28 seconds
+selectCodeEditor("MIPScomputer.vhd", 404, 109); // ad
+// Elapsed time: 14 seconds
+selectCodeEditor("MIPScomputer.vhd", 418, 318); // ad
+selectCodeEditor("MIPScomputer.vhd", 393, 491); // ad
+selectCodeEditor("MIPScomputer.vhd", 122, 587); // ad
+selectCodeEditor("MIPScomputer.vhd", 219, 567); // ad
+selectCodeEditor("MIPScomputer.vhd", 124, 552); // ad
+selectCodeEditor("MIPScomputer.vhd", 344, 598); // ad
+selectCodeEditor("MIPScomputer.vhd", 131, 552); // ad
+// Elapsed time: 13 seconds
+selectCodeEditor("MIPScomputer.vhd", 241, 557); // ad
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 13, true); // f - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// Elapsed Time for: 'L.f': 15m:20s
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // g
+// TclEventType: ELABORATE_START
+// Tcl Message: refresh_design 
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a
+// TclEventType: ELABORATE_FAIL
+// Tcl Message: INFO: [Common 17-344] 'source' was cancelled INFO: [Common 17-344] 'refresh_design' was cancelled 
+// CommandFailedException: ERROR: [Common 17-69] Command failed:  
+dismissDialog("Reloading"); // bq
+// Elapsed Time for: 'L.f': 15m:26s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 13, true); // f - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 13, true); // f - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 17, false); // f
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Run Linter]", 12, false); // f
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -top MIPSprocesador -part xc7a35tcpg236-1 -lint  
+// Tcl Message: Command: synth_design -top MIPSprocesador -part xc7a35tcpg236-1 -lint Starting synth_design Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t' 
+// Tcl Message: INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t' 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,138 MB. GUI used memory: 106 MB. Current time: 11/1/25, 8:34:32 AM COT
+// TclEventType: ELABORATE_FINISH
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW_FAILED
+// TclEventType: LINTER_RUN
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 2573.961 ; gain = 34.414 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Clean up Linter database... 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'MIPSprocesador' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:38] INFO: [Synth 8-3491] module 'register32b' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/register32b.vhd:27' bound to instance 'PC' of component 'register32b' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:109] INFO: [Synth 8-638] synthesizing module 'register32b' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/register32b.vhd:36] 
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'MIPSprocesador' (8#1) [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:38] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 2650.582 ; gain = 111.035 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 37-85] Total of 17 linter message(s) generated. INFO: [Synth 37-45] Linter Run Finished! 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 2674.480 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc] 
+// Tcl Message: Finished Parsing XDC File [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc] 
+// Tcl Message: Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2787.176 ; gain = 0.000 
+// Tcl Message: INFO: [Common 17-83] Releasing license: Synthesis 
+// Tcl Message: 37 Infos, 55 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2787.176 ; gain = 247.629 
+// [Engine Memory]: 2,257 MB (+116227kb) [00:16:07]
+// 'a' command handler elapsed time: 8 seconds
+dismissDialog("Run Linter"); // bq
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // f - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MIPScomputer(Behavioral) (MIPScomputer.vhd)]", 2, true); // E - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MIPScomputer(Behavioral) (MIPScomputer.vhd)]", 2, true, false, false, false, true, false); // E - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // al
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // al
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // al
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ao
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: set_property top MIPScomputer [current_fileset] 
+// TclEventType: DG_GRAPH_STALE
+// Elapsed Time for: 'L.f': 15m:48s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Run Linter]", 12, false); // f
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -top MIPScomputer -part xc7a35tcpg236-1 -lint  
+// Tcl Message: Command: synth_design -top MIPScomputer -part xc7a35tcpg236-1 -lint Starting synth_design Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t' 
+// Tcl Message: INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t' 
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a
+// TclEventType: ELABORATE_FAIL
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. INFO: [Common 17-344] 'source' was cancelled 
+// Tcl Message: INFO: [Common 17-83] Releasing license: Synthesis 
+// Tcl Message: 4 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// CommandFailedException: ERROR: [Common 17-69] Command failed:  
+// Tcl Message: INFO: [Common 17-344] 'synth_design' was cancelled 
+// HOptionPane Error: 'Run Linter Failed. Check Messages for details. (Run Linter Failed)'
+// 'a' command handler elapsed time: 4 seconds
+selectButton("OptionPane.button", "OK"); // JButton
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 15m:56s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'L.f': 15m:58s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Run Linter]", 12, false); // f
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 4); // f
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -top MIPScomputer -part xc7a35tcpg236-1 -lint  
+// Tcl Message: Command: synth_design -top MIPScomputer -part xc7a35tcpg236-1 -lint Starting synth_design Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t' 
+// Tcl Message: INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t' 
+// TclEventType: ELABORATE_FAIL
+// HMemoryUtils.trashcanNow. Engine heap size: 2,323 MB. GUI used memory: 107 MB. Current time: 11/1/25, 8:35:02 AM COT
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2787.176 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Clean up Linter database... 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'MIPScomputer' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPScomputer.vhd:41] 
+// Tcl Message: INFO: [Synth 8-3491] module 'MIPSprocesador' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:27' bound to instance 'U0' of component 'MIPSprocesador' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPScomputer.vhd:70] 
+// Tcl Message: ERROR: [Synth 8-3493] module 'mipsprocesador' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:27' does not have matching formal port for component port 'adress' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPScomputer.vhd:70] ERROR: [Synth 8-285] failed synthesizing module 'MIPScomputer' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPScomputer.vhd:41] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2787.176 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: RTL Elaboration failed 
+// Tcl Message: INFO: [Common 17-83] Releasing license: Synthesis 
+// Tcl Message: 4 Infos, 1 Warnings, 0 Critical Warnings and 2 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2787.176 ; gain = 0.000 
+// Tcl Message: ERROR: [Common 17-39] 'synth_design' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'synth_design' failed due to earlier errors.  
+// HOptionPane Error: 'Run Linter Failed. Check Messages for details. (Run Linter Failed)'
+// 'a' command handler elapsed time: 11 seconds
+// Elapsed time: 11 seconds
+selectButton("OptionPane.button", "OK"); // JButton
+// Elapsed Time for: 'L.f': 16m:12s
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Run Linter]", 12, false); // f
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -top MIPScomputer -part xc7a35tcpg236-1 -lint  
+// Tcl Message: Command: synth_design -top MIPScomputer -part xc7a35tcpg236-1 -lint Starting synth_design Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t' 
+// Tcl Message: INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t' 
+// TclEventType: ELABORATE_FAIL
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2787.176 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Clean up Linter database... 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'MIPScomputer' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPScomputer.vhd:41] 
+// Tcl Message: INFO: [Synth 8-3491] module 'MIPSprocesador' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:27' bound to instance 'U0' of component 'MIPSprocesador' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPScomputer.vhd:70] 
+// Tcl Message: ERROR: [Synth 8-3493] module 'mipsprocesador' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:27' does not have matching formal port for component port 'adress' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPScomputer.vhd:70] ERROR: [Synth 8-285] failed synthesizing module 'MIPScomputer' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPScomputer.vhd:41] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 2787.176 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: RTL Elaboration failed 
+// Tcl Message: INFO: [Common 17-83] Releasing license: Synthesis 
+// Tcl Message: 4 Infos, 1 Warnings, 0 Critical Warnings and 2 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 2787.176 ; gain = 0.000 
+// Tcl Message: ERROR: [Common 17-39] 'synth_design' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'synth_design' failed due to earlier errors.  
+// HOptionPane Error: 'Run Linter Failed. Check Messages for details. (Run Linter Failed)'
+// 'a' command handler elapsed time: 8 seconds
+selectButton("OptionPane.button", "OK"); // JButton
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 16, false); // f
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Run Linter]", 12, false); // f
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -top MIPScomputer -part xc7a35tcpg236-1 -lint  
+// Tcl Message: Command: synth_design -top MIPScomputer -part xc7a35tcpg236-1 -lint Starting synth_design Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t' 
+// Tcl Message: INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t' 
+// TclEventType: ELABORATE_FAIL
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2787.176 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Clean up Linter database... 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'MIPScomputer' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPScomputer.vhd:41] 
+// Tcl Message: INFO: [Synth 8-3491] module 'MIPSprocesador' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:27' bound to instance 'U0' of component 'MIPSprocesador' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPScomputer.vhd:70] 
+// Tcl Message: ERROR: [Synth 8-3493] module 'mipsprocesador' declared at 'C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPSprocesador.vhd:27' does not have matching formal port for component port 'adress' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPScomputer.vhd:70] ERROR: [Synth 8-285] failed synthesizing module 'MIPScomputer' [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPScomputer.vhd:41] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 2787.176 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: RTL Elaboration failed 
+// Tcl Message: INFO: [Common 17-83] Releasing license: Synthesis 
+// Tcl Message: 4 Infos, 1 Warnings, 0 Critical Warnings and 2 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 2787.176 ; gain = 0.000 
+// Tcl Message: ERROR: [Common 17-39] 'synth_design' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'synth_design' failed due to earlier errors.  
+// HOptionPane Error: 'Run Linter Failed. Check Messages for details. (Run Linter Failed)'
+// 'a' command handler elapsed time: 8 seconds
+selectButton("OptionPane.button", "OK"); // JButton
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // j
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 1); // o
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // j
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MIPScomputer.vhd", 2); // o
+selectCheckBox(PAResourceItoN.MsgView_CRITICAL_WARNINGS, (String) null, false); // f: FALSE
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, false); // f: FALSE
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, false); // f: FALSE
+// Elapsed time: 11 seconds
+selectCodeEditor("MIPScomputer.vhd", 133, 72); // ad
+selectCodeEditor("MIPScomputer.vhd", 90, 93); // ad
+selectCodeEditor("MIPScomputer.vhd", 87, 175); // ad
+selectCodeEditor("MIPScomputer.vhd", 42, 212); // ad
+selectCodeEditor("MIPScomputer.vhd", 118, 214); // ad
+selectCodeEditor("MIPScomputer.vhd", 114, 363); // ad
+selectCodeEditor("MIPScomputer.vhd", 39, 364); // ad
+selectCodeEditor("MIPScomputer.vhd", 92, 434); // ad
+selectCodeEditor("MIPScomputer.vhd", 149, 195); // ad
+selectCodeEditor("MIPScomputer.vhd", 153, 197); // ad
+selectCodeEditor("MIPScomputer.vhd", 168, 258); // ad
+selectCodeEditor("MIPScomputer.vhd", 156, 195); // ad
+selectCodeEditor("MIPScomputer.vhd", 160, 192); // ad
+selectCodeEditor("MIPScomputer.vhd", 169, 250); // ad
+selectCodeEditor("MIPScomputer.vhd", 132, 546); // ad
+selectCodeEditor("MIPScomputer.vhd", 161, 550); // ad
+selectCodeEditor("MIPScomputer.vhd", 158, 553); // ad
+selectCodeEditor("MIPScomputer.vhd", 231, 539); // ad
+selectCodeEditor("MIPScomputer.vhd", 487, 75); // ad
+selectCodeEditor("MIPScomputer.vhd", 469, 76); // ad
+selectCodeEditor("MIPScomputer.vhd", 486, 75); // ad
+selectCodeEditor("MIPScomputer.vhd", 483, 73); // ad
+selectCodeEditor("MIPScomputer.vhd", 360, 236); // ad
+// Elapsed time: 12 seconds
+selectCodeEditor("MIPScomputer.vhd", 144, 553); // ad
+selectCodeEditor("MIPScomputer.vhd", 162, 517); // ad
+selectCodeEditor("MIPScomputer.vhd", 220, 583); // ad
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 11, true); // f - Node
+// [GUI Memory]: 186 MB (+117kb) [00:19:18]
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 11); // f
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 11); // f
+selectCodeEditor("MIPScomputer.vhd", 424, 220); // ad
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 18m:54s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Run Linter]", 12, false); // f
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -top MIPScomputer -part xc7a35tcpg236-1 -lint  
+// Tcl Message: Command: synth_design -top MIPScomputer -part xc7a35tcpg236-1 -lint Starting synth_design Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t' 
+// Tcl Message: INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t' 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: LINTER_RUN
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2787.176 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Clean up Linter database... 
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'MIPScomputer' (10#1) [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/sources_1/new/MIPScomputer.vhd:41] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2787.176 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 37-85] Total of 26 linter message(s) generated. INFO: [Synth 37-45] Linter Run Finished! 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 2787.176 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc] 
+// Tcl Message: Finished Parsing XDC File [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc] 
+// Tcl Message: Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2861.824 ; gain = 0.000 
+// TclEventType: LINTER_RUN
+// Tcl Message: INFO: [Common 17-83] Releasing license: Synthesis 
+// Tcl Message: 44 Infos, 65 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2861.824 ; gain = 74.648 
+// 'a' command handler elapsed time: 9 seconds
+dismissDialog("Run Linter"); // bq
+// Elapsed Time for: 'L.f': 19m:04s
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // g
+// TclEventType: ELABORATE_START
+// Tcl Message: refresh_design 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,348 MB. GUI used memory: 108 MB. Current time: 11/1/25, 8:38:02 AM COT
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2861.824 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 2,348 MB. GUI used memory: 106 MB. Current time: 11/1/25, 8:38:08 AM COT
+// Engine heap size: 2,348 MB. GUI used memory: 107 MB. Current time: 11/1/25, 8:38:08 AM COT
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2861.824 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2861.824 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2861.824 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 2861.824 ; gain = 0.000 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 2,348 MB. GUI used memory: 85 MB. Current time: 11/1/25, 8:38:09 AM COT
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// WARNING: HEventQueue.dispatchEvent() is taking  1316 ms.
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc] 
+// Tcl Message: Finished Parsing XDC File [C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.srcs/constrs_1/imports/Downloads/Basys-3-Master.xdc] Completed Processing XDC Constraints  
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 2861.824 ; gain = 0.000 
+// Elapsed time: 10 seconds
+dismissDialog("Reloading"); // bq
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Critical Messages"); // F
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 17, false); // f
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// PAPropertyPanels.initPanels (U0 (MIPSprocesador)) elapsed time: 0.2s
+selectButton(PAResourceQtoS.SchematicView_PREVIOUS, "Schematic_previousview"); // B

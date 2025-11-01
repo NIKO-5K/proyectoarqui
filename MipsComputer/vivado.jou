@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sat Nov  1 08:18:36 2025
+# Process ID: 16848
+# Current directory: C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17836 C:\Users\njimenezs\Documents\arqui\MipsComputer\MipsComputer\MipsComputer.vhd.xpr
+# Log file: C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/vivado.log
+# Journal file: C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer\vivado.jou
+# Running On: LENOVO8304, OS: Windows, CPU Frequency: 3600 MHz, CPU Physical cores: 4, Host memory: 17008 MB
+#-----------------------------------------------------------
+start_guioopen_project C:/Users/njimenezs/Documents/arqui/MipsComputer/MipsComputer/MipsComputer.vhd.xpuuupdate_compile_order -fileset sources_synth_design -top MIPSprocesador -part xc7a35tcpg236-1 -lint 
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+refresh_design
+synth_design -top MIPSprocesador -part xc7a35tcpg236-1 -lint 
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top MIPScomputer [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+synth_design -top MIPScomputer -part xc7a35tcpg236-1 -lint 
+update_compile_order -fileset sources_1
+synth_design -top MIPScomputer -part xc7a35tcpg236-1 -lint 
+synth_design -top MIPScomputer -part xc7a35tcpg236-1 -lint 
+synth_design -top MIPScomputer -part xc7a35tcpg236-1 -lint 
+synth_design -top MIPScomputer -part xc7a35tcpg236-1 -lint 
+refresh_design
