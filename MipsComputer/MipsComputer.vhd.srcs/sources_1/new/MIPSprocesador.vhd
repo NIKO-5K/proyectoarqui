@@ -98,18 +98,21 @@ end component;
 
 
 signal inPC, outPC, outIR, outALURout, outMDR, dataInRF, inA, inB, outA, outB, extData, inAluA, inAluB, outALU, addressJump: std_logic_vector (31 downto 0);
-signal enablePC, iOrD, enableIR, regWrite, aluSrcA, memToReg, iZeroFlag : std_logic;
+signal enablePC, iOrD, enableIR, regWrite, aluSrcA, memToReg, iZeroFlag,notClock : std_logic;
 signal regDst, aluSrcB, pcSrc: std_logic_vector (1 downto 0);
 signal addr3RF : std_logic_vector (4 downto 0);
 signal operationALU: std_logic_vector (3 downto 0);
 signal aluOp: std_logic_vector (2 downto 0);
+signal controlUnitSignals : std_logic_vector (17 downto 0);
 
 begin
+
+    notClock <= not clock;
 
     PC : register32b
     port map (
         reset => reset,
-        clock => clock,
+        clock => notClock,
         dataIn => InPC,
         dataOut => OutPC,
         enable => enablePC
@@ -126,7 +129,7 @@ begin
     IR: register32b
     port map (
         reset => reset,
-        clock => clock,
+        clock => notClock,
         dataIn => dataIn,
         dataOut => outIR,
         enable => enableIR
@@ -135,7 +138,7 @@ begin
     MDR: register32b
     port map (
         reset => reset,
-        clock => clock,
+        clock => notClock,
         dataIn => dataIn,
         dataOut => outMDR,
         enable => '1'
@@ -161,7 +164,7 @@ begin
   
     RF: register_file
     port map (
-        clock => clock,
+        clock => notClock,
         address1 => outIR(25 downto 21),
         address2 => outIR(20 downto 16),
         address3 => addr3RF,
@@ -183,7 +186,7 @@ begin
     regA: register32b
     port map (
         reset => reset,
-        clock => clock,
+        clock => notClock,
         enable => '1',
         dataIn => inA,
         dataOut => outA
@@ -192,7 +195,7 @@ begin
     regB: register32b
     port map (
         reset => reset,
-        clock => clock,
+        clock => notClock,
         enable => '1',
         dataIn => inB,
         dataOut => outB
@@ -232,7 +235,7 @@ begin
     aluOutReg: register32b
     port map (
         reset => reset,
-        clock => clock,
+        clock => notClock,
         enable => '1',
         dataIn => outALU,
         dataOut => outALURout

@@ -1,70 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1761395474">
-  <File Type="ROUTE-PWR" Name="mainCtrlUnit_power_routed.rpt"/>
-  <File Type="PA-TCL" Name="mainCtrlUnit.tcl"/>
-  <File Type="ROUTE-PWR-SUM" Name="mainCtrlUnit_power_summary_routed.pb"/>
   <File Type="REPORTS-TCL" Name="mainCtrlUnit_reports.tcl"/>
-  <File Type="OPT-RQA-PB" Name="mainCtrlUnit_rqa_opted.pb"/>
+  <File Type="ROUTE-PWR-SUM" Name="MIPScomputer_power_summary_routed.pb"/>
   <File Type="BITSTR-MMI" Name="mainCtrlUnit.mmi"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="mainCtrlUnit_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="mainCtrlUnit_timing_summary_init.rpt"/>
-  <File Type="OPT-TIMING" Name="mainCtrlUnit_timing_summary_opted.rpt"/>
-  <File Type="OPT-DCP" Name="mainCtrlUnit_opt.dcp"/>
-  <File Type="OPT-DRC" Name="mainCtrlUnit_drc_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="mainCtrlUnit.hwdef"/>
-  <File Type="PWROPT-DCP" Name="mainCtrlUnit_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="mainCtrlUnit_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="mainCtrlUnit_timing_summary_pwropted.rpt"/>
-  <File Type="PLACE-DCP" Name="mainCtrlUnit_placed.dcp"/>
-  <File Type="PLACE-IO" Name="mainCtrlUnit_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="mainCtrlUnit_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL" Name="mainCtrlUnit_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="mainCtrlUnit_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="mainCtrlUnit_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="mainCtrlUnit_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="mainCtrlUnit_incremental_reuse_pre_placed.rpt"/>
+  <File Type="OPT-DRC" Name="MIPScomputer_drc_opted.rpt"/>
+  <File Type="BG-DRC" Name="mainCtrlUnit.drc"/>
+  <File Type="ROUTE-STATUS-PB" Name="MIPScomputer_route_status.pb"/>
+  <File Type="BG-BGN" Name="mainCtrlUnit.bgn"/>
+  <File Type="PLACE-UTIL" Name="MIPScomputer_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="MIPScomputer_utilization_placed.pb"/>
+  <File Type="PLACE-IO" Name="MIPScomputer_io_placed.rpt"/>
   <File Type="BG-BIN" Name="mainCtrlUnit.bin"/>
-  <File Type="PLACE-TIMING" Name="mainCtrlUnit_timing_summary_placed.rpt"/>
-  <File Type="ROUTE-PWR-RPX" Name="mainCtrlUnit_power_routed.rpx"/>
-  <File Type="PLACE-RQA-PB" Name="mainCtrlUnit_rqa_placed.pb"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="mainCtrlUnit_postplace_pwropt.dcp"/>
+  <File Type="PLACE-CTRL" Name="MIPScomputer_control_sets_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="MIPScomputer_power_routed.rpx"/>
   <File Type="BITSTR-MSK" Name="mainCtrlUnit.msk"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="mainCtrlUnit_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="mainCtrlUnit_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="mainCtrlUnit_drc_physopted.rpt"/>
   <File Type="BITSTR-RBT" Name="mainCtrlUnit.rbt"/>
-  <File Type="PHYSOPT-TIMING" Name="mainCtrlUnit_timing_summary_physopted.rpt"/>
-  <File Type="ROUTE-ERROR-DCP" Name="mainCtrlUnit_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="mainCtrlUnit_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="mainCtrlUnit_routed_bb.dcp"/>
-  <File Type="ROUTE-DRC" Name="mainCtrlUnit_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="mainCtrlUnit_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="mainCtrlUnit_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="mainCtrlUnit_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="mainCtrlUnit_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="mainCtrlUnit_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-RQS-PB" Name="mainCtrlUnit_rqs_routed.pb"/>
-  <File Type="ROUTE-STATUS" Name="mainCtrlUnit_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="mainCtrlUnit_route_status.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="mainCtrlUnit_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-PB" Name="mainCtrlUnit_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="mainCtrlUnit_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="mainCtrlUnit_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="mainCtrlUnit_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="mainCtrlUnit_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="mainCtrlUnit_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="mainCtrlUnit_bus_skew_routed.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="mainCtrlUnit_postroute_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="mainCtrlUnit_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="mainCtrlUnit_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="mainCtrlUnit_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="mainCtrlUnit_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="mainCtrlUnit_bus_skew_postroute_physopted.rpt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="MIPScomputer_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="MIPScomputer_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="MIPScomputer_route_status.rpt"/>
+  <File Type="PA-TCL" Name="mainCtrlUnit.tcl"/>
+  <File Type="ROUTE-PWR" Name="MIPScomputer_power_routed.rpt"/>
+  <File Type="ROUTE-DRC" Name="MIPScomputer_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="MIPScomputer_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="MIPScomputer_drc_routed.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="mainCtrlUnit.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="MIPScomputer_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="MIPScomputer_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="mainCtrlUnit.ltx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="MIPScomputer_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-SIMILARITY" Name="MIPScomputer_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="mainCtrlUnit.vdi"/>
+  <File Type="ROUTE-CLK" Name="MIPScomputer_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="MIPScomputer_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="MIPScomputer_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="MIPScomputer_bus_skew_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="MIPScomputer_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="MIPScomputer_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="MIPScomputer_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="MIPScomputer_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="MIPScomputer_bus_skew_postroute_physopted.rpx"/>
   <File Type="BG-BIT" Name="mainCtrlUnit.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="mainCtrlUnit_bus_skew_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="mainCtrlUnit_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="MIPScomputer_bus_skew_postroute_physopted.pb"/>
   <File Type="BITSTR-NKY" Name="mainCtrlUnit.nky"/>
   <File Type="BITSTR-BMM" Name="mainCtrlUnit_bd.bmm"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-HWDEF" Name="mainCtrlUnit.hwdef"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="mainCtrlUnit_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DCP" Name="mainCtrlUnit_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="mainCtrlUnit_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="mainCtrlUnit_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMING-PB" Name="mainCtrlUnit_timing_summary_routed.pb"/>
+  <File Type="OPT-DCP" Name="mainCtrlUnit_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="mainCtrlUnit_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="mainCtrlUnit_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="mainCtrlUnit_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="mainCtrlUnit_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="mainCtrlUnit_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="mainCtrlUnit_postroute_physopt_bb.dcp"/>
   <File Type="PDI-FILE" Name="mainCtrlUnit.pdi"/>
   <File Type="BOOT-PDI-FILE" Name="mainCtrlUnit_soc.pdi"/>
   <File Type="PL-PDI-FILE" Name="mainCtrlUnit_pld.pdi"/>
@@ -73,13 +66,6 @@
   <File Type="RNPI_FILE" Name="mainCtrlUnit.rnpi"/>
   <File Type="NPI_FILE" Name="mainCtrlUnit.npi"/>
   <File Type="RBD_FILE" Name="mainCtrlUnit.rbd"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="mainCtrlUnit.ltx"/>
-  <File Type="BITSTR-SYSDEF" Name="mainCtrlUnit.sysdef"/>
-  <File Type="BG-BGN" Name="mainCtrlUnit.bgn"/>
-  <File Type="BG-DRC" Name="mainCtrlUnit.drc"/>
-  <File Type="RDI-RDI" Name="mainCtrlUnit.vdi"/>
-  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <File Type="ROUTE-RQS" Name="mainCtrlUnit_routed.rqs"/>
   <File Type="POSTROUTE-PHYSOPT-RQS" Name="mainCtrlUnit_postroute_physopted.rqs"/>
   <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
@@ -227,5 +213,6 @@
     <Step Id="route_design"/>
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
   </Strategy>
 </GenRun>
