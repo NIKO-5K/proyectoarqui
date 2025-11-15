@@ -130,7 +130,7 @@ begin
           when "00111" => --excecute
              controlSignals <= "0100010000000000";
           when "01000" => -- ALU writeBack
-             controlSignals <= "1000000000000000";
+             controlSignals <= "0110000000000000";
           when "01001" => --beq
              controlSignals <= "0100001011000000";
           when "01010" => --jump
